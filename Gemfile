@@ -32,6 +32,8 @@ gem 'bootstrap-sass'
 # gem 'capistrano-rails', group: :development
 # Devise 
 gem 'devise', '~> 3.4.1'
+# Allow you to upload pictures
+gem 'paperclip', '~> 4.2.1'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
