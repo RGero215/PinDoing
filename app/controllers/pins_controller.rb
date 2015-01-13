@@ -3,20 +3,20 @@ class PinsController < ApplicationController
   before_action :correct_user, only: [:edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show]
   
-  respond_to :html
+  
 
   def index
     @pins = Pin.all
-    respond_with(@pins)
+    
   end
 
   def show
-    respond_with(@pin)
+    
   end
 
   def new
     @pin = current_user.pins.build
-    respond_with(@pin)
+    
   end
 
   def edit
@@ -41,7 +41,7 @@ class PinsController < ApplicationController
 
   def destroy
     @pin.destroy
-    respond_with(@pin)
+    
   end
 
   private
