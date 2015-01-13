@@ -34,7 +34,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.1'
 # Allow you to upload pictures
 gem 'paperclip', '~> 4.2.1'
-
+# Allow you store image online
+gem 'aws-sdk', '~> 2.0.18.pre'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
