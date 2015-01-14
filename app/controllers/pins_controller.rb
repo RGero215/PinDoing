@@ -7,16 +7,13 @@ class PinsController < ApplicationController
 
   def index
     @pins = Pin.all
-    
   end
 
   def show
-    
   end
 
   def new
     @pin = current_user.pins.build
-    
   end
 
   def edit
@@ -41,7 +38,6 @@ class PinsController < ApplicationController
 
   def destroy
     @pin.destroy
-    
   end
 
   private
