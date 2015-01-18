@@ -6,7 +6,7 @@ $btn-primary-color: #000000;
 $jumbotron-bg: #000000;
 $jumbotron-heading-color: #F2B50F;
 
-
+@import "bootstrap-sprockets";
 @import 'bootstrap';
 
 .center {
