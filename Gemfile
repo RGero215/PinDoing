@@ -40,6 +40,11 @@ gem 'aws-sdk'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'will_paginate', '~> 3.0.7'
 gem 'will_paginate-bootstrap', '~> 1.0.1'
+gem 'activeadmin',         github: 'gregbell/active_admin'
+gem 'ransack',             github: 'ernie/ransack'
+gem 'inherited_resources', github: 'josevalim/inherited_resources'
+gem 'formtastic',          github: 'justinfrench/formtastic'
+gem 'kaminari', '~> 0.16.3'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
