@@ -45,6 +45,7 @@ gem 'ransack',             github: 'ernie/ransack'
 gem 'inherited_resources', github: 'josevalim/inherited_resources'
 gem 'formtastic',          github: 'justinfrench/formtastic'
 gem 'kaminari', '~> 0.16.3'
+gem 'social-share-button', '~> 0.1.8'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
