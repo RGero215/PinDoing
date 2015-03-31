@@ -38,6 +38,7 @@ gem 'paperclip'
 # Allow you store image online
 gem 'aws-sdk'
 gem 'masonry-rails', '~> 0.2.4'
+<<<<<<< HEAD
 gem 'will_paginate', '~> 3.0.7'
 gem 'will_paginate-bootstrap', '~> 1.0.1'
 gem 'activeadmin',         github: 'gregbell/active_admin'
@@ -46,6 +47,8 @@ gem 'inherited_resources', github: 'josevalim/inherited_resources'
 gem 'formtastic',          github: 'justinfrench/formtastic'
 gem 'kaminari', '~> 0.16.3'
 gem 'social-share-button', '~> 0.1.8'
+=======
+>>>>>>> parent of 5d1cb2e... Added pagination to pins index
 group :development, :test do
 # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
