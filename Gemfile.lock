@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/ernie/ransack.git
-  revision: 65c59b09667b750df46386ebc865cff74889f49f
+  revision: d921f3041cd713cfb9ce8adf9b7216de41bd08f0
   specs:
-    ransack (1.6.4)
+    ransack (1.6.5)
       actionpack (>= 3.0)
       activerecord (>= 3.0)
       activesupport (>= 3.0)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/gregbell/active_admin.git
-  revision: 078f234288a15982217ab2594631ef259985b16f
+  revision: 71b94c9326bb29749c48a0f90f43d8914e80335f
   specs:
     activeadmin (1.0.0.pre1)
       arbre (~> 1.0, >= 1.0.2)
@@ -85,18 +85,18 @@ GEM
     arbre (1.0.3)
       activesupport (>= 3.0.0)
     arel (6.0.0)
-    autoprefixer-rails (5.1.7.1)
+    autoprefixer-rails (5.1.8)
       execjs
       json
-    aws-sdk (2.0.31)
-      aws-sdk-resources (= 2.0.31)
-    aws-sdk-core (2.0.31)
+    aws-sdk (2.0.33)
+      aws-sdk-resources (= 2.0.33)
+    aws-sdk-core (2.0.33)
       builder (~> 3.0)
       jmespath (~> 1.0)
       multi_json (~> 1.0)
       multi_xml (~> 0.5)
-    aws-sdk-resources (2.0.31)
-      aws-sdk-core (= 2.0.31)
+    aws-sdk-resources (2.0.33)
+      aws-sdk-core (= 2.0.33)
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -107,7 +107,7 @@ GEM
       sass (~> 3.4)
       thor
     builder (3.2.2)
-    byebug (4.0.3)
+    byebug (4.0.4)
       columnize (= 0.9.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -216,7 +216,7 @@ GEM
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
     sass (3.4.13)
-    sass-rails (5.0.1)
+    sass-rails (5.0.2)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.1)
       sprockets (>= 2.8, < 4.0)
