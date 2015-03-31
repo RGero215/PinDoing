@@ -36,8 +36,9 @@ gem 'devise', '~> 3.4.1'
 # Allow you to upload pictures
 gem 'paperclip'
 # Allow you store image online
-gem 'aws-sdk'
+gem 'aws-sdk', '~> 2.0'
 gem 'masonry-rails', '~> 0.2.4'
+
 
 gem 'will_paginate', '~> 3.0.7'
 gem 'will_paginate-bootstrap', '~> 1.0.1'

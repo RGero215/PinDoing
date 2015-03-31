@@ -265,7 +265,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
-  aws-sdk
+  aws-sdk (~> 2.0)
   bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
