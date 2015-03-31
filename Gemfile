@@ -36,7 +36,7 @@ gem 'devise', '~> 3.4.1'
 # Allow you to upload pictures
 gem 'paperclip'
 # Allow you store image online
-gem 'aws-sdk', '~> 2.0'
+gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails', '~> 0.2.4'
 
 
