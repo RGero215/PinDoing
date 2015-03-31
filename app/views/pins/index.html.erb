@@ -11,11 +11,9 @@
         <% if current_user && pin.user == current_user %>
           <div class="actions">
             <%= link_to edit_pin_path(pin) do %>
-              
               Edit
             <% end %> |
             <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
-             
               Delete
             <% end %>
           </div>
