@@ -38,6 +38,7 @@ gem 'paperclip'
 # Allow you store image online
 gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'stream', '~> 0.5'
 
 
 gem 'will_paginate', '~> 3.0.7'
