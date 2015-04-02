@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ernie/ransack.git
-  revision: d921f3041cd713cfb9ce8adf9b7216de41bd08f0
+  revision: ff774ed84d05a25c16c84cca86ec22fe558999aa
   specs:
     ransack (1.6.5)
       actionpack (>= 3.0)
@@ -88,9 +88,9 @@ GEM
     autoprefixer-rails (5.1.8)
       execjs
       json
-    aws-sdk (1.61.0)
-      aws-sdk-v1 (= 1.61.0)
-    aws-sdk-v1 (1.61.0)
+    aws-sdk (1.63.0)
+      aws-sdk-v1 (= 1.63.0)
+    aws-sdk-v1 (1.63.0)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
     bcrypt (3.1.10)
@@ -99,7 +99,7 @@ GEM
     bootstrap-sass (3.3.4.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
-    bourbon (4.2.1)
+    bourbon (4.2.2)
       sass (~> 3.4)
       thor
     builder (3.2.2)
@@ -209,7 +209,7 @@ GEM
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
     sass (3.4.13)
-    sass-rails (5.0.2)
+    sass-rails (5.0.3)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.1)
       sprockets (>= 2.8, < 4.0)
