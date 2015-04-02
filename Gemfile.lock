@@ -270,7 +270,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks (~> 2.1.0)
   kaminari (~> 0.16.3)
-  masonry-rails (~> 0.2.4)
+  masonry-rails (~> 0.2.0)
   paperclip
   pg
   rails (= 4.2.0)
