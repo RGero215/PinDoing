@@ -7,8 +7,8 @@ $jumbotron-bg: #000000;
 $jumbotron-heading-color: #F2B50F;
 
 @import "bootstrap-sprockets";
-/*@import 'bootstrap';
-*/
+@import 'bootstrap';
+
 .center {
     text-align: center;
 }
